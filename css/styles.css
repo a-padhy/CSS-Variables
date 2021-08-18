@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --base: #e7890f;
+  --blur: 10px;
+  --spacing: 10px;
+}
+
+body {
+  margin-top: 30px;
+  background: #5711c9;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  height: 24.25rem;
+  width: 37.75rem;
+}
+
+input {
+  width: 100px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+.hl {
+  color: var(--base);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75rem;
+  line-height: 20px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.6);
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: bold;
+}
+
+.attribution a:hover {
+  color: var(--base);
+}
